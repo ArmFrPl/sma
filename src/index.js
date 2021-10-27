@@ -16,6 +16,6 @@ ReactDOM.render(
       <Route path="/history" component={Camps} />
       <Route path="/shop" component={Shop} />
     </Switch>
-  </BrowserRouter>
+  </BrowserRouter>,
 document.getElementById('root')
 );
