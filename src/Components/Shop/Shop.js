@@ -1,20 +1,18 @@
 //Dependencies
-import React, { Component } from 'react';
+import React from 'react';
 //Internals
 import AllItems from './ShopItem';
 import './index.css';
 
-class Shop extends Component {
-  render() {
-    return (
-      <div className="items-wrapper">
-        <div className="items-title">
-          <h4>All Items</h4>
-        </div>
-        <AllItems />
+const Shop = () => {
+  return (
+    <div className="itemsWrapper">
+      <div className="itemsTitle">
+        <h4>All Items</h4>
       </div>
-    );
-  }
+      <AllItems />
+    </div>
+  );
 }
 
 export default Shop;

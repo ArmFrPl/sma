@@ -1,4 +1,4 @@
- .items-wrapper {
+ .itemsWrapper {
   border-top: 4px solid black;
 }
 
@@ -27,7 +27,7 @@
   width: 100vw;
 }
 
-.items-title {
+.itemsTitle {
   text-align: center;
 }
 
@@ -39,7 +39,7 @@ img {
   height: 15em;
 }
 
-#product-name {
+#productName {
   border-top: 1px solid lightgrey;
   padding: 1em 0 0;
   font-size: 1.5em;
@@ -48,7 +48,7 @@ img {
   color: #d01601;
 }
 
-#product-description {
+#productDescription {
   font-size: 1em;
   font-family: 'Lato', sans-serif;
   font-weight: lighter;
@@ -57,12 +57,12 @@ img {
 }
 
 
-#product-price {
+#productPrice {
   font-size: 1em;
   color: #d01601;
 }
 
-.price-add {
+.priceAdd {
   display: flex;
   justify-content: space-between;
 }
@@ -78,7 +78,7 @@ i:hover {
   cursor: pointer;
 }
 
-.items-title {
+.itemsTitle {
   margin: 3em 0;
   font-family: 'Lato', sans-serif;
   font-weight: lighter;
